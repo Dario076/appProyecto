@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, { useState } from 'react';
 import Accesorios from './componentes/accesorios';
 import Computadoras from './componentes/Computadoras';
@@ -6,6 +7,14 @@ import './App.css'; // Importa el CSS que ya tienes
 
 const App = () => {
   const [selectedComponent, setSelectedComponent] = useState(null);
+=======
+import { useState } from 'react'
+import Header from "./component/Header"
+import './App.css'
+
+function App() {
+
+>>>>>>> da6657a03f918e162a8e59bd2dd12c5bb024073c
 
   const handleMenuClick = (component) => {
     console.log('Clicked:', component);
@@ -18,6 +27,7 @@ const App = () => {
   };
   
   return (
+<<<<<<< HEAD
     <div>
       <nav className="navbar">
         <div className="logo" onClick={handleLogoClick}>
@@ -33,6 +43,16 @@ const App = () => {
           </div>
         </div>
       </nav>
+=======
+    <>
+      
+      <h1>Proyecto</h1>
+      
+    
+    </>
+  )
+}
+>>>>>>> da6657a03f918e162a8e59bd2dd12c5bb024073c
 
       <div className="content">
         {selectedComponent}
