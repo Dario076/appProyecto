@@ -2,8 +2,23 @@
 .fw-black {
   font-weight: 900;
 }
-body {
-  background-color: lightblue;
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px; /* Añade padding para asegurar espacio en los bordes */
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  margin-left: auto; /* Asegura que el carrito esté alineado a la derecha */
 }
 
 .carrito {
@@ -12,12 +27,12 @@ body {
   max-width: 2rem;
   position: relative;
   z-index: 100;
-  
+  margin-right: 20px; /* Añade margen para asegurar espacio en el borde derecho */
 }
 
 .carrito #carrito {
   display: none;
-  position: absolute !important;
+  position: absolute;
   box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
 }
 
@@ -33,6 +48,11 @@ body {
   left: unset;
   margin-left: unset;
   margin-right: unset;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
 }
 
 #carrito img {
@@ -61,7 +81,34 @@ p {
   display: flex;
   align-items: center;
 }
+button {
+  border-radius: 0;
+}
 
+button:focus:not(:focus-visible) {
+  outline: 0;
+}
+
+
+button {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+button {
+  text-transform: none;
+}
+
+button,
+[type=button] {
+  -webkit-appearance: button;
+}
+button:not(:disabled),
+[type=button]:not(:disabled) {
+  cursor: pointer;
+}
 .logo {
   cursor: pointer;
   padding: auto;
@@ -84,7 +131,7 @@ p {
 .dropdown-content {
   display: none;
   position: relative;
-  background-color: #f9f9f9;
+  background-color: #a8a8a8;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -98,7 +145,7 @@ p {
 }
 
 .dropdown-content a:hover {
-  background-color: #ddd;
+  background-color: #b9b5b5;
 }
 
 .dropdown:hover .dropdown-content {
@@ -210,6 +257,7 @@ p {
 .table > thead {
   vertical-align: bottom;
 }
+
 
 .btn {
   --bs-btn-padding-x: 0.75rem;
@@ -364,9 +412,6 @@ p {
 .img-fluid {
   max-width: 100%;
   height: auto;
-}
-.header {
-  border: 1px solid red; /* Borde temporal para verificar el contenedor */
 }
 .navbar-right {
   display: flex;
