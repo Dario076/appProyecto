@@ -1,0 +1,138 @@
+@charset "UTF-8";
+.fw-black {
+  font-weight: 900;
+}
+body {
+  background-color: lightblue;
+}
+
+h1 {
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+.carrito {
+  background-color: transparent;
+  border: none;
+  max-width: 2rem;
+  position: relative;
+  z-index: 100;
+  
+}
+
+.carrito #carrito {
+  display: none;
+  position: absolute;
+  box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+}
+
+.carrito:hover #carrito {
+  display: block;
+  background-color: white;
+  padding: 10px;
+  height: fit-content;
+  min-width: 350px;
+  width: fit-content;
+  top: 100%;
+  right: 0;
+  left: unset;
+  margin-left: unset;
+  margin-right: unset;
+}
+
+#carrito img {
+  width: 30px;
+}
+
+#carrito .btn-danger {
+  font-size: 10px;
+  border-radius: 50%;
+  padding: 5px 9px;
+}
+
+#carrito .btn-dark {
+  padding: 0 2px;
+  margin: 0 3px;
+}
+p {
+  font-family: verdana;
+  font-size: 20px;
+  color: red;
+  text-align: center;
+}
+.navbar {
+  background-color: #333;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  cursor: pointer;
+  padding: auto;
+  width: auto;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropbtn {
+  background-color: #333;
+  color: white;
+  padding: 14px 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown-content {
+  display: none;
+  position: relative;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.content {
+  padding: 20px;
+  background-color: #e0f7fa;
+  min-height: 100vh; /* Asegura que el contenido llene la pantalla */
+}
+.dropdown-menu {
+  z-index: 1000; /* Asegúrate de que este valor sea mayor que el del fondo */
+}
+.dropdown-menu {
+  position: absolute;
+  top: 100%; /* Ajusta según sea necesario */
+  left: 0;
+}
+.background {
+  position: relative;
+  z-index: 1;
+}
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+  width: 50px;
+}
+.navbar-right {
+  display: flex;
+  align-items: center;
+  margin-left: auto; /* Asegura que el carrito esté alineado a la derecha */
+}
