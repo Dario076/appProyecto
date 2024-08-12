@@ -20,7 +20,7 @@ function Header({ openModal, closeModal, modalContent }) {
               <div className="dropdown-content">
                 <a href="#" onClick={() => openModal(<Computadoras />)}>Computadoras</a>
                 <a href="#" onClick={() => openModal(<Laptops />)}>Laptops</a>
-                <a href="#" onClick={() => openModal(<Accesorios />)}>Accesorios</a>
+                <a href="#" onClick={() => openModal(<Accesorios/>)}>Componentes</a>
               </div>
             </div>
           </div>
@@ -74,7 +74,7 @@ function Header({ openModal, closeModal, modalContent }) {
                 <tbody>
                   <tr>
                     <td>
-                      <img className="img-fluid" src="./public/img/guitarra_02.jpg" alt="imagen guitarra" />
+                      <img className="img-fluid" src="./public/img/laptop_02.jpg" alt="laptop" />
                     </td>
                     <td>SRV</td>
                     <td className="fw-bold">

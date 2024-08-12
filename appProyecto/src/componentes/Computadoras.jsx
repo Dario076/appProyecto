@@ -6,25 +6,32 @@ const Computadoras = () => {
       <div className="row">
         <div className="column">
           <div className='laptop-model'>
-            <h3>Asus Vivobook 15</h3>
-            <img className="laptopimg" src="./public/img/laptop_01.jpg" alt="laptop" />
-            <p>Laptop de alto rendimiento</p>
+            <h3>HP PRODESK 600 G6PD SFF</h3>
+            <img className="laptopimg" src="./public/img/computadora1.png" alt="computadora" />
+            <p>MiniPC de alto rendimiento
+              con procesador core i3-10100
+            </p>
             <button type="button" className="btn btn-dark w-100">Agregar al Carrito</button>
           </div>
         </div>
         <div className="column">
           <div className='laptop-model'>
-            <h3>Laptop hp 250</h3>
-            <img className="laptopimg" src="./public/img/laptop_02.jpg" alt="laptop" />
-            <p>Descripción de la laptop HP 250</p>
+            <h3>Computador HP HP AIO PROONE</h3>
+            <img className="laptopimg" src="./public/img/computadora2.png" alt="laptop" />
+            <p>Computador HP AIO ProOne 440 G9
+              con procesador Intel Core 5-12500
+            </p>
+            
             <button type="button" className="btn btn-dark w-100">Agregar al Carrito</button>
           </div>
         </div>
         <div className="column">
           <div className='laptop-model'>
-            <h3>Laptop HP Elitebook</h3>
-            <img className="laptopimg" src="./public/img/laptop_03.jpg" alt="laptop" />
-            <p>Descripción de la laptop HP Elitebook</p>
+            <h3>APPLE IMAC 2021</h3>
+            <img className="laptopimg" src="./public/img/computadora3.jpg" alt="laptop" />
+            <p>Computadora de alto rendimiento
+              Apple IMAC 2021 M1 AIO 8GB RAM 
+            </p>
             <button type="button" className="btn btn-dark w-100">Agregar al Carrito</button>
           </div>
         </div>
@@ -32,25 +39,35 @@ const Computadoras = () => {
       <div className="row">
         <div className="column">
           <div className='laptop-model'>
-            <h3>Laptop Dell Inspiron</h3>
-            <img className="laptopimg" src="./public/img/laptop_04.jpg" alt="laptop" />
-            <p>Descripción de la laptop Dell Inspiron</p>
+            <h3>CPU DELL OPTIPLEX</h3>
+            <img className="laptopimg" src="./public/img/computadora4.jpg" alt="laptop" />
+            <p>CPU OPTIPLEX GX3040 SFF
+              con procesador core i5-6500
+            </p>
             <button type="button" className="btn btn-dark w-100">Agregar al Carrito</button>
           </div>
         </div>
         <div className="column">
           <div className='laptop-model'>
-            <h3>Laptop Lenovo ThinkPad</h3>
-            <img className="laptopimg" src="./public/img/laptop_05.jpg" alt="laptop" />
-            <p>Descripción de la laptop Lenovo ThinkPad</p>
+            <h3>CPU HP ENVY TE01-2000</h3>
+            <img className="laptopimg" src="./public/img/computadora5.jpg" alt="laptop" />
+            <p>
+              CPU TE01-2000 con procesador
+              INTEL CORE i7-11700 y 16GB DDR4
+            </p>
             <button type="button" className="btn btn-dark w-100">Agregar al Carrito</button>
           </div>
         </div>
         <div className="column">
           <div className='laptop-model'>
-            <h3>Laptop Acer Aspire</h3>
-            <img className="laptopimg" src="./public/img/laptop_06.jpg" alt="laptop" />
-            <p>Descripción de la laptop Acer Aspire</p>
+            <h3>LENOVO LEGION T5 26AMR05</h3>
+            <img className="laptopimg" src="./public/img/computadora6.jpg" alt="laptop" />
+            <p>
+              CPU T5 26AMR05 con procesador
+              AMD RYZEN 7 5700G y 16GB DDR4
+              Disco: 512GB SSD + 1TB HDD
+              Grafica: 6GB GTX 1660 SUPER NVIDIA
+            </p>
             <button type="button" className="btn btn-dark w-100">Agregar al Carrito</button>
           </div>
         </div>
@@ -58,5 +75,4 @@ const Computadoras = () => {
     </div>
   );
 };
-
 export default Computadoras;

@@ -1,9 +1,8 @@
 import React, { useState } from 'react';
-import accesorios from './componentes/accesorios';
 import './App.css'; // Importa el CSS que ya tienes
 import Laptops from './componentes/Laptop';
 import Computadoras from './componentes/Computadoras';
-
+import accesorios from './componentes/accesorios';
 const App = () => {
   const [selectedComponent, setSelectedComponent] = useState(null);
 
@@ -29,7 +28,7 @@ const App = () => {
           <div className="dropdown-content">
             <a href="#" onClick={() => handleMenuClick(<Computadoras />)}>Computadoras</a>
             <a href="#" onClick={() => handleMenuClick(<Laptops />)}>Laptops</a>
-            <a href="#" onClick={() => handleMenuClick(<accesorios />)}>Accesorios</a>
+            <a href="#" onClick={() => handleMenuClick(<Componentes />)}>Componentes</a>
           </div>
         </div>
         <div className="navbar-right">

@@ -1,13 +1,13 @@
 import React from 'react';
 
-const accesorios = () => {
+const Accesorios = () => {
   return (
 <div className="container">
       <div className="row">
         <div className="column">
           <div className='laptop-model'>
             <h3>AMD RX6600 XT</h3>
-            <img className="laptopimg" src="./public/img/laptop_01.jpg" alt="laptop" />
+            <img className="laptopimg" src="./public/img/componente1" alt="laptop" />
             <p>Laptop de alto rendimiento</p>
             <button type="button" className="btn btn-dark w-100">Agregar al Carrito</button>
           </div>
@@ -59,4 +59,4 @@ const accesorios = () => {
   );
 };
 
-export default accesorios;
+export default Accesorios;
