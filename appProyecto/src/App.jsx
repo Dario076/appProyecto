@@ -29,13 +29,21 @@ const App = () => {
           <div className="dropdown-content">
             <a href="#" onClick={() => handleMenuClick(<Computadoras />)}>Computadoras</a>
             <a href="#" onClick={() => handleMenuClick(<Laptops />)}>Laptops</a>
-            <a href="#" onClick={() => handleMenuClick(<Accesorios />)}>Accesorios</a>
+            <a href="#" onClick={() => handleMenuClick(<accesorios />)}>Accesorios</a>
           </div>
         </div>
         <div className="navbar-right">
-    <img className="img-fluid" src="/img/carrito.png" alt="carrito" />
-    
-  </div>
+          <div className="cart-icon">
+            <img className="img-fluid" src="/img/carrito.png" alt="carrito" />
+            <div className="cart-content">
+              
+              <p>Laptop HP 250 G7</p>
+              <img src='/public/img/laptop_01.jpg' alt='laptop'></img>
+              <p>Laptop de alto rendimiento</p>
+              <p>Total a pagar: $999</p>
+            </div>
+          </div>
+        </div>
       </nav>
       <div className="content">
         {selectedComponent}
@@ -45,7 +53,6 @@ const App = () => {
         <div className="container-xl">
             <p className="text-white text-center fs-4 mt-4 m-md-0">CompuNET- Todos los derechos Reservados</p>
         </div>
-        
     </footer>
     </div>
     

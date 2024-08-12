@@ -27,8 +27,11 @@ function Header({ openModal, closeModal, modalContent }) {
         </nav>
         <div className="navbar-right">
             <div className="carrito">
-              <img className="img-fluid" src="/img/carrito.png" alt="carrito" />
-              <div id="carrito">
+            <div className='container'>
+              <img className='img-fluid' src='/img/carrito.png' alt='carrito'/>
+              <button class="btn">Button</button>
+            </div>
+            <div id="carrito">
                 <p>El carrito está vacío</p>
                 <table>
                   <thead>
@@ -84,7 +87,7 @@ function Header({ openModal, closeModal, modalContent }) {
                       >
                         -
                       </button>
-                      1
+                      
                       <button
                         type="button"
                         className="btn btn-dark">+</button>
@@ -102,6 +105,7 @@ function Header({ openModal, closeModal, modalContent }) {
         </nav>
       </header>
     </div>
+              
   );
 }
 

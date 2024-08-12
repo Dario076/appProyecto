@@ -53,6 +53,7 @@
 .img-fluid {
   max-width: 100%;
   height: auto;
+  cursor: pointer;
 }
 
 #carrito img {
@@ -421,4 +422,26 @@ button:not(:disabled),
 .navbar-left {
   display: flex;
   align-items: center;
+}
+.cart-icon {
+  position: relative;
+  display: inline-block;
+  z-index: 10; /* Asegúrate de que el icono del carrito esté por encima de otros elementos */
+}
+
+/* Contenido del carrito que aparece al pasar el cursor */
+.cart-content {
+  display: none;
+  position: absolute;
+  right: 0;
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 10px;
+  z-index: 500 !important; /* Asegúrate de que el contenido del carrito esté por encima del icono */
+  width: 200px; /* Ajusta el ancho según sea necesario */
+}
+
+/* Mostrar el contenido del carrito al pasar el cursor */
+.cart-icon:hover .cart-content {
+  display: block;
 }
