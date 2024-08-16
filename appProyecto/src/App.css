@@ -457,3 +457,11 @@ button:not(:disabled),
   width: 100px; /* Ajusta el tamaño de la imagen aquí */
   height: auto; /* Mantiene la proporción de la imagen */
 }
+.product {
+  text-align: center;
+}
+
+.add-to-cart-button {
+  display: block;
+  margin: auto;
+}

@@ -52,16 +52,44 @@ const App = () => {
         <div class="grid-item">
             <h3>XTRATECH INTEL CORE I5-12400</h3>
             <p>Procesador Intel Core i5-12400</p>
-            <img src='/public/img/Intel core 5-12400.jpg' alt='computadora'/>
-            <button>Agregar al Carrito</button>
+            <img className='product' src='/public/img/Intel core 5-12400.jpg' alt='computadora'/>
+            <button className="add-to-cart-button">Agregar al Carrito</button>
         </div>
         <div class="grid-item">
             <h3>APPLE IMAC 2021</h3>
-            <p>Computadora de alto rendimiento Apple IMAC 2021 M1 AIO 8GB RAM</p>
-            <button>Agregar al Carrito</button>
+            <p>
+            Chip M1 de Apple
+            CPU de 8 núcleos con 4 núcleos de rendimiento 
+            y 4 de eficiencia GPU de 7 núcleos, GPU de 8 
+            núcleos.
+            SSD de 256 GB o SSD de 512 GB
+            8 GB de memoria unificada
+            </p>
+            <img className='product' src='/public/img/imac 2021.jpg' alt='imac'/>
+            <button className="add-to-cart-button">Agregar al Carrito</button>
         </div>
         <div class="grid-item">
-          <h3>Asus Vivobook</h3>
+          <h3>LENOVO IP3 15ALC6</h3>
+          <p>
+          Procesador: AMD Ryzen 7 5700U 1.8Ghz hasta 4.3Ghz.
+          Memoria Ram: 12GB DDR4-3200 MHz
+          Disco duro: 512GB SSD M.2
+          </p>
+          <img className='product' src='/public/img/LENOVO IP3 15ALC6.jpg' alt='laptop'/>
+          <button className="add-to-cart-button">Agregar al Carrito</button>
+        </div>
+        <div className='grid-item'>
+          <div class="grid-item">
+          <h3>LENOVO G3 15ARH7</h3>
+          <p>
+          Procesador: AMD Ryzen™ 5 6600H 3.3GHZ.
+          Gráficos dedicada: NVIDIA® GeForce RTX™ 3050 4GB GDDR6.
+          Memoria Ram: 8GB DDR5-4800 MHz
+          Disco duro: 512GB SSD M.2
+          </p>
+          <img className='product' src='/public/img/LENOVO G3 15ARH7.jpg' alt='laptop'/>
+          <button className="add-to-cart-button">Agregar al Carrito</button>
+        </div>
         </div>
 
 
